@@ -1,0 +1,179 @@
+getmonitair.com 3600 A 3.21.209.111
+
+getmonitair.com 3600 MX 1 ASPMX.L.GOOGLE.COM
+
+getmonitair.com 3600 MX 5 ALT1.ASPMX.L.GOOGLE.COM
+
+getmonitair.com 3600 MX 5 ALT2.ASPMX.L.GOOGLE.COM
+
+getmonitair.com 3600 MX 10 ALT3.ASPMX.L.GOOGLE.COM
+
+getmonitair.com 3600 MX 10 ALT4.ASPMX.L.GOOGLE.COM
+
+getmonitair.com 3600 TXT "v=spf1 +a +include:_spf.google.com +include:one.zoho.com -all"
+
+getmonitair.com 3600 TXT "stripe-verification=ae56ede79e9f5fa528bc9a1011e7dcd56ff2287dd6dd48b368e2a86011351430"
+
+getmonitair.com 3600 TXT "zoho-verification=zb63199649.zmverify.zoho.com"
+
+21671741.getmonitair.com 3600 CNAME sendgrid.net
+
+*.getmonitair.com 3600 TXT "v=spf1 -all"
+
+_acme-challenge.getmonitair.com 3600 TXT "w8hzoaR4BUgq86xkZfSgmIMIGy8LSW18Oycz3semYmE"
+
+_cpanel-dcv-test-record.getmonitair.com 3600 TXT "_cpanel-dcv-test-record=TbyYvT3D8fY6nrOjtaSVWiowV__WyEUz5FRb3msV4iKq6nkXrZk23XKkR5wu4Bir"
+
+_dmarc.getmonitair.com 3600 TXT "v=DMARC1;p=quarantine;sp=quarantine;adkim=r;aspf=r;pct=100;fo=0;rf=afrf;ri=86400;rua=mailto:info@monitairhealth.com;ruf=mailto:info@monitairhealth.com"
+
+1522905413783._domainkey.getmonitair.com 3600 TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr6KMgdxxgg7oT3ulMwPJs9RXgXDrI9UWU118pHEMohl3UbL3Jwp4oxp/9N3thh/3WCJnYV134zbEVolZwqaT3JsFEq/mQ/RpW/JnOZ3rnxqJPurb2bcfJol4SDxiWVObzHX31xnANzFcXnq1/5dMK5QvW4Jh7n0fm4+4ywqiy2QIDAQAB"
+
+4pj5mwv6lczahdpsifym63yqqkalfief._domainkey.getmonitair.com 3600 CNAME 4pj5mwv6lczahdpsifym63yqqkalfief.dkim.custom-email-domain.stripe.com
+
+default._domainkey.getmonitair.com 3600 TXT "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuF8IOU6Lpi/ChrPCLq+/lELNYHK+VcC0nRrlCk7Nu4hRggBTJY32IAJ1S/wPIPiXMmJ0Qxt4AKbWecKL6xpaG6ptLkk4eZwyuvBGIlysz47wzMFBjRDcsveJC4s6taXE04rdsKTMIltIG5xFGZNLe4fwQWt7vgn66G4GwZnwOCjderOm3iq6Kx3fMQ2BwcJ+0"
+
+default._domainkey.getmonitair.com 3600 TXT "//DBe7vhqhWMgO3F5SoeHoZtQfpoCD/aIppo+4jZsVsurC0ArStDZCMZ7lIEdksGoEEDDkCU6gDf9t2M3+7CA5Dze/QRof8DXbb5RFegjNMpeYFvORh3mlJmj/4pEygDsKUJfM8cE9TvVxE9rdpTwIDAQAB;"
+
+fokf4znyaewzfbpjrkbbpmv4k5fk42mm._domainkey.getmonitair.com 3600 CNAME fokf4znyaewzfbpjrkbbpmv4k5fk42mm.dkim.custom-email-domain.stripe.com
+
+olmib6r43jdvxjcmudailqx7spcgrz3a._domainkey.getmonitair.com 3600 CNAME olmib6r43jdvxjcmudailqx7spcgrz3a.dkim.custom-email-domain.stripe.com
+
+qvor3zrauoehgxrtalyxobeilgqxnekm._domainkey.getmonitair.com 3600 CNAME qvor3zrauoehgxrtalyxobeilgqxnekm.dkim.custom-email-domain.stripe.com
+
+rydghzoovi4shbmslcbchw3b6azval5p._domainkey.getmonitair.com 3600 CNAME rydghzoovi4shbmslcbchw3b6azval5p.dkim.custom-email-domain.stripe.com
+
+s1._domainkey.getmonitair.com 3600 CNAME s1.domainkey.u21671741.wl242.sendgrid.net
+
+s2._domainkey.getmonitair.com 3600 CNAME s2.domainkey.u21671741.wl242.sendgrid.net
+
+vdjxlnleb477kotz5jwrrwhpmkcmsiz5._domainkey.getmonitair.com 3600 CNAME vdjxlnleb477kotz5jwrrwhpmkcmsiz5.dkim.custom-email-domain.stripe.com
+
+_xmpp-server._tcp.getmonitair.com 3600 SRV 5 0 5269 xmpp-server.l.google.com
+
+_xmpp-server._tcp.getmonitair.com 3600 SRV 20 0 5269 alt1.xmpp-server.l.google.com
+
+_xmpp-server._tcp.getmonitair.com 3600 SRV 20 0 5269 alt2.xmpp-server.l.google.com
+
+_xmpp-server._tcp.getmonitair.com 3600 SRV 20 0 5269 alt3.xmpp-server.l.google.com
+
+_xmpp-server._tcp.getmonitair.com 3600 SRV 20 0 5269 alt4.xmpp-server.l.google.com
+
+_twilio.getmonitair.com 3600 TXT "twilio-domain-verification=2bf7316f0ba6207834c1ea87f21d7574"
+
+admin-v2.getmonitair.com 3600 A 3.17.15.1
+
+api-mob.getmonitair.com 3600 A 3.12.3.210
+
+www.api-mob.getmonitair.com 3600 A 3.12.3.210
+
+api-transport.getmonitair.com 3600 A 52.15.84.185
+
+www.api-transport.getmonitair.com 3600 A 52.15.84.185
+
+api.getmonitair.com 3600 A 3.138.235.29
+
+www.api.getmonitair.com 3600 A 3.138.235.29
+
+app-v2.getmonitair.com 3600 A 3.132.133.172
+
+app.getmonitair.com 3600 A 18.116.160.23
+
+www.app.getmonitair.com 3600 A 18.116.160.23
+
+bounce.getmonitair.com 3600 CNAME custom-email-domain.stripe.com
+
+calendar.getmonitair.com 3600 CNAME ghs.googlehosted.com
+
+chat.getmonitair.com 3600 CNAME ghs.googlehosted.com
+
+communication.getmonitair.com 3600 A 3.138.80.14
+
+cp.getmonitair.com 3600 A 3.14.61.190
+
+cpanel.getmonitair.com 3600 CNAME monitairhealth.com
+
+dev-admin-v2.getmonitair.com 3600 A 3.22.131.159
+
+dev-api-mob.getmonitair.com 3600 A 18.224.74.183
+
+www.dev-api-mob.getmonitair.com 3600 A 18.224.74.183
+
+dev-api-transport.getmonitair.com 3600 A 3.136.51.187
+
+www.dev-api-transport.getmonitair.com 3600 A 3.136.51.187
+
+dev-api.getmonitair.com 3600 A 3.139.39.225
+
+www.dev-api.getmonitair.com 3600 A 3.139.39.225
+
+dev-app-v2.getmonitair.com 3600 A 3.23.254.11
+
+dev-communication.getmonitair.com 3600 A 3.132.240.94
+
+dev-notifications.getmonitair.com 3600 A 18.221.82.42
+
+dev-phone.getmonitair.com 3600 A 3.18.248.254
+
+www.dev-phone.getmonitair.com 3600 A 3.18.248.254
+
+dev-transport.getmonitair.com 3600 A 3.13.203.54
+
+www.dev-transport.getmonitair.com 3600 A 3.13.203.54
+
+dev.getmonitair.com 3600 A 3.141.96.65
+
+www.dev.getmonitair.com 3600 A 3.141.96.65
+
+docs.getmonitair.com 3600 CNAME ghs.googlehosted.com
+
+em1105.getmonitair.com 3600 CNAME u21671741.wl242.sendgrid.net
+
+email.getmonitair.com 3600 CNAME ghs.googlehosted.com
+
+ftp.getmonitair.com 3600 CNAME monitairhealth.com
+
+imap.getmonitair.com 3600 CNAME imap.gmail.com
+
+localhost.getmonitair.com 3600 A 127.0.0.1
+
+mail.getmonitair.com 3600 A 192.185.16.228
+
+messenger.getmonitair.com 3600 A 3.142.179.129
+
+notifications.getmonitair.com 3600 A 3.136.110.46
+
+www.notifications.getmonitair.com 3600 A 3.136.110.46
+
+pop3.getmonitair.com 3600 CNAME pop3.gmail.com
+
+smtp.getmonitair.com 3600 CNAME smtp.gmail.com
+
+staging-api-transport.getmonitair.com 3600 A 3.136.51.187
+
+www.staging-api-transport.getmonitair.com 3600 A 3.136.51.187
+
+staging-api.getmonitair.com 3600 A 3.139.39.225
+
+www.staging-api.getmonitair.com 3600 A 3.139.39.225
+
+staging-transport.getmonitair.com 3600 A 3.13.203.54
+
+www.staging-transport.getmonitair.com 3600 A 3.13.203.54
+
+staging.getmonitair.com 3600 A 3.141.96.65
+
+www.staging.getmonitair.com 3600 A 3.141.96.65
+
+status.getmonitair.com 3600 CNAME d-umzvnp0153.execute-api.us-east-2.amazonaws.com
+
+www.status.getmonitair.com 3600 CNAME d-umzvnp0153.execute-api.us-east-2.amazonaws.com
+
+transport.getmonitair.com 3600 A 3.141.67.172
+
+www.transport.getmonitair.com 3600 A 3.141.67.172
+
+url5641.getmonitair.com 3600 CNAME sendgrid.net
+
+webmail.getmonitair.com 3600 CNAME monitairhealth.com
+
+www.getmonitair.com 3600 CNAME monitairhealth.com

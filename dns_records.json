@@ -1,0 +1,856 @@
+{
+  "ResourceRecordSets": [
+    {
+      "Name": "monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.21.209.111"
+        }
+      ]
+    },
+    {
+      "Name": "monitairhealth.com.",
+      "Type": "MX",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "1 ASPMX.L.GOOGLE.COM"
+        },
+        {
+          "Value": "5 ALT1.ASPMX.L.GOOGLE.COM"
+        },
+        {
+          "Value": "5 ALT2.ASPMX.L.GOOGLE.COM"
+        },
+        {
+          "Value": "10 ALT3.ASPMX.L.GOOGLE.COM"
+        },
+        {
+          "Value": "10 ALT4.ASPMX.L.GOOGLE.COM"
+        }
+      ]
+    },
+    {
+      "Name": "monitairhealth.com.",
+      "Type": "NS",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "ns-1806.awsdns-33.co.uk."
+        },
+        {
+          "Value": "ns-1318.awsdns-36.org."
+        },
+        {
+          "Value": "ns-911.awsdns-49.net."
+        },
+        {
+          "Value": "ns-130.awsdns-16.com."
+        }
+      ]
+    },
+    {
+      "Name": "monitairhealth.com.",
+      "Type": "SOA",
+      "TTL": 300,
+      "ResourceRecords": [
+        {
+          "Value": "ns-1806.awsdns-33.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+        }
+      ]
+    },
+    {
+      "Name": "monitairhealth.com.",
+      "Type": "TXT",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "\"v=spf1 +a +include:_spf.google.com +include:one.zoho.com -all\""
+        },
+        {
+          "Value": "\"stripe-verification=ae56ede79e9f5fa528bc9a1011e7dcd56ff2287dd6dd48b368e2a86011351430\""
+        },
+        {
+          "Value": "\"zoho-verification=zb63199649.zmverify.zoho.com\""
+        }
+      ]
+    },
+    {
+      "Name": "21671741.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "sendgrid.net"
+        }
+      ]
+    },
+    {
+      "Name": "*.monitairhealth.com.",
+      "Type": "TXT",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "\"v=spf1 -all\""
+        }
+      ]
+    },
+    {
+      "Name": "_acme-challenge.monitairhealth.com.",
+      "Type": "TXT",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "\"w8hzoaR4BUgq86xkZfSgmIMIGy8LSW18Oycz3semYmE\""
+        }
+      ]
+    },
+    {
+      "Name": "_cpanel-dcv-test-record.monitairhealth.com.",
+      "Type": "TXT",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "\"_cpanel-dcv-test-record=TbyYvT3D8fY6nrOjtaSVWiowV__WyEUz5FRb3msV4iKq6nkXrZk23XKkR5wu4Bir\""
+        }
+      ]
+    },
+    {
+      "Name": "_dmarc.monitairhealth.com.",
+      "Type": "TXT",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "\"v=DMARC1;p=quarantine;sp=quarantine;adkim=r;aspf=r;pct=100;fo=0;rf=afrf;ri=86400;rua=mailto:info@monitairhealth.com;ruf=mailto:info@monitairhealth.com\""
+        }
+      ]
+    },
+    {
+      "Name": "1522905413783._domainkey.monitairhealth.com.",
+      "Type": "TXT",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "\"k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr6KMgdxxgg7oT3ulMwPJs9RXgXDrI9UWU118pHEMohl3UbL3Jwp4oxp/9N3thh/3WCJnYV134zbEVolZwqaT3JsFEq/mQ/RpW/JnOZ3rnxqJPurb2bcfJol4SDxiWVObzHX31xnANzFcXnq1/5dMK5QvW4Jh7n0fm4+4ywqiy2QIDAQAB\""
+        }
+      ]
+    },
+    {
+      "Name": "4pj5mwv6lczahdpsifym63yqqkalfief._domainkey.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "4pj5mwv6lczahdpsifym63yqqkalfief.dkim.custom-email-domain.stripe.com"
+        }
+      ]
+    },
+    {
+      "Name": "default._domainkey.monitairhealth.com.",
+      "Type": "TXT",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "\"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuF8IOU6Lpi/ChrPCLq+/lELNYHK+VcC0nRrlCk7Nu4hRggBTJY32IAJ1S/wPIPiXMmJ0Qxt4AKbWecKL6xpaG6ptLkk4eZwyuvBGIlysz47wzMFBjRDcsveJC4s6taXE04rdsKTMIltIG5xFGZNLe4fwQWt7vgn66G4GwZnwOCjderOm3iq6Kx3fMQ2BwcJ+0\""
+        },
+        {
+          "Value": "\"//DBe7vhqhWMgO3F5SoeHoZtQfpoCD/aIppo+4jZsVsurC0ArStDZCMZ7lIEdksGoEEDDkCU6gDf9t2M3+7CA5Dze/QRof8DXbb5RFegjNMpeYFvORh3mlJmj/4pEygDsKUJfM8cE9TvVxE9rdpTwIDAQAB;\""
+        }
+      ]
+    },
+    {
+      "Name": "fokf4znyaewzfbpjrkbbpmv4k5fk42mm._domainkey.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "fokf4znyaewzfbpjrkbbpmv4k5fk42mm.dkim.custom-email-domain.stripe.com"
+        }
+      ]
+    },
+    {
+      "Name": "olmib6r43jdvxjcmudailqx7spcgrz3a._domainkey.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "olmib6r43jdvxjcmudailqx7spcgrz3a.dkim.custom-email-domain.stripe.com"
+        }
+      ]
+    },
+    {
+      "Name": "qvor3zrauoehgxrtalyxobeilgqxnekm._domainkey.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "qvor3zrauoehgxrtalyxobeilgqxnekm.dkim.custom-email-domain.stripe.com"
+        }
+      ]
+    },
+    {
+      "Name": "rydghzoovi4shbmslcbchw3b6azval5p._domainkey.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "rydghzoovi4shbmslcbchw3b6azval5p.dkim.custom-email-domain.stripe.com"
+        }
+      ]
+    },
+    {
+      "Name": "s1._domainkey.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "s1.domainkey.u21671741.wl242.sendgrid.net"
+        }
+      ]
+    },
+    {
+      "Name": "s2._domainkey.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "s2.domainkey.u21671741.wl242.sendgrid.net"
+        }
+      ]
+    },
+    {
+      "Name": "vdjxlnleb477kotz5jwrrwhpmkcmsiz5._domainkey.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "vdjxlnleb477kotz5jwrrwhpmkcmsiz5.dkim.custom-email-domain.stripe.com"
+        }
+      ]
+    },
+    {
+      "Name": "_xmpp-server._tcp.monitairhealth.com.",
+      "Type": "SRV",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "5 0 5269 xmpp-server.l.google.com"
+        },
+        {
+          "Value": "20 0 5269 alt1.xmpp-server.l.google.com"
+        },
+        {
+          "Value": "20 0 5269 alt2.xmpp-server.l.google.com"
+        },
+        {
+          "Value": "20 0 5269 alt3.xmpp-server.l.google.com"
+        },
+        {
+          "Value": "20 0 5269 alt4.xmpp-server.l.google.com"
+        }
+      ]
+    },
+    {
+      "Name": "_twilio.monitairhealth.com.",
+      "Type": "TXT",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "\"twilio-domain-verification=2bf7316f0ba6207834c1ea87f21d7574\""
+        }
+      ]
+    },
+    {
+      "Name": "admin-v2.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.17.15.1"
+        }
+      ]
+    },
+    {
+      "Name": "api-mob.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.12.3.210"
+        }
+      ]
+    },
+    {
+      "Name": "www.api-mob.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.12.3.210"
+        }
+      ]
+    },
+    {
+      "Name": "api-transport.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "52.15.84.185"
+        }
+      ]
+    },
+    {
+      "Name": "www.api-transport.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "52.15.84.185"
+        }
+      ]
+    },
+    {
+      "Name": "api.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.138.235.29"
+        }
+      ]
+    },
+    {
+      "Name": "www.api.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.138.235.29"
+        }
+      ]
+    },
+    {
+      "Name": "app-v2.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.132.133.172"
+        }
+      ]
+    },
+    {
+      "Name": "app.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "18.116.160.23"
+        }
+      ]
+    },
+    {
+      "Name": "www.app.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "18.116.160.23"
+        }
+      ]
+    },
+    {
+      "Name": "bounce.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "custom-email-domain.stripe.com"
+        }
+      ]
+    },
+    {
+      "Name": "calendar.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "ghs.googlehosted.com"
+        }
+      ]
+    },
+    {
+      "Name": "chat.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "ghs.googlehosted.com"
+        }
+      ]
+    },
+    {
+      "Name": "communication.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.138.80.14"
+        }
+      ]
+    },
+    {
+      "Name": "cp.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.14.61.190"
+        }
+      ]
+    },
+    {
+      "Name": "cpanel.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "monitairhealth.com"
+        }
+      ]
+    },
+    {
+      "Name": "dev-admin-v2.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.22.131.159"
+        }
+      ]
+    },
+    {
+      "Name": "dev-api-mob.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "18.224.74.183"
+        }
+      ]
+    },
+    {
+      "Name": "www.dev-api-mob.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "18.224.74.183"
+        }
+      ]
+    },
+    {
+      "Name": "dev-api-transport.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.136.51.187"
+        }
+      ]
+    },
+    {
+      "Name": "www.dev-api-transport.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.136.51.187"
+        }
+      ]
+    },
+    {
+      "Name": "dev-api.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.139.39.225"
+        }
+      ]
+    },
+    {
+      "Name": "www.dev-api.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.139.39.225"
+        }
+      ]
+    },
+    {
+      "Name": "dev-app-v2.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.23.254.11"
+        }
+      ]
+    },
+    {
+      "Name": "dev-communication.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.132.240.94"
+        }
+      ]
+    },
+    {
+      "Name": "dev-notifications.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "18.221.82.42"
+        }
+      ]
+    },
+    {
+      "Name": "dev-phone.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.18.248.254"
+        }
+      ]
+    },
+    {
+      "Name": "www.dev-phone.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.18.248.254"
+        }
+      ]
+    },
+    {
+      "Name": "dev-transport.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.13.203.54"
+        }
+      ]
+    },
+    {
+      "Name": "www.dev-transport.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.13.203.54"
+        }
+      ]
+    },
+    {
+      "Name": "dev.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.141.96.65"
+        }
+      ]
+    },
+    {
+      "Name": "www.dev.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.141.96.65"
+        }
+      ]
+    },
+    {
+      "Name": "docs.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "ghs.googlehosted.com"
+        }
+      ]
+    },
+    {
+      "Name": "em1105.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "u21671741.wl242.sendgrid.net"
+        }
+      ]
+    },
+    {
+      "Name": "email.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "ghs.googlehosted.com"
+        }
+      ]
+    },
+    {
+      "Name": "ftp.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "monitairhealth.com"
+        }
+      ]
+    },
+    {
+      "Name": "imap.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "imap.gmail.com"
+        }
+      ]
+    },
+    {
+      "Name": "localhost.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "127.0.0.1"
+        }
+      ]
+    },
+    {
+      "Name": "mail.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "192.185.16.228"
+        }
+      ]
+    },
+    {
+      "Name": "messenger.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.142.179.129"
+        }
+      ]
+    },
+    {
+      "Name": "notifications.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.136.110.46"
+        }
+      ]
+    },
+    {
+      "Name": "www.notifications.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.136.110.46"
+        }
+      ]
+    },
+    {
+      "Name": "pop3.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "pop3.gmail.com"
+        }
+      ]
+    },
+    {
+      "Name": "smtp.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "smtp.gmail.com"
+        }
+      ]
+    },
+    {
+      "Name": "staging-api-transport.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.136.51.187"
+        }
+      ]
+    },
+    {
+      "Name": "www.staging-api-transport.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.136.51.187"
+        }
+      ]
+    },
+    {
+      "Name": "staging-api.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.139.39.225"
+        }
+      ]
+    },
+    {
+      "Name": "www.staging-api.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.139.39.225"
+        }
+      ]
+    },
+    {
+      "Name": "staging-transport.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.13.203.54"
+        }
+      ]
+    },
+    {
+      "Name": "www.staging-transport.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.13.203.54"
+        }
+      ]
+    },
+    {
+      "Name": "staging.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.141.96.65"
+        }
+      ]
+    },
+    {
+      "Name": "www.staging.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.141.96.65"
+        }
+      ]
+    },
+    {
+      "Name": "status.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "d-umzvnp0153.execute-api.us-east-2.amazonaws.com"
+        }
+      ]
+    },
+    {
+      "Name": "www.status.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "d-umzvnp0153.execute-api.us-east-2.amazonaws.com"
+        }
+      ]
+    },
+    {
+      "Name": "transport.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.141.67.172"
+        }
+      ]
+    },
+    {
+      "Name": "www.transport.monitairhealth.com.",
+      "Type": "A",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "3.141.67.172"
+        }
+      ]
+    },
+    {
+      "Name": "url5641.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "sendgrid.net"
+        }
+      ]
+    },
+    {
+      "Name": "webmail.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "monitairhealth.com"
+        }
+      ]
+    },
+    {
+      "Name": "www.monitairhealth.com.",
+      "Type": "CNAME",
+      "TTL": 3600,
+      "ResourceRecords": [
+        {
+          "Value": "monitairhealth.com"
+        }
+      ]
+    }
+  ]
+}
